@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import os.log
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        os_log("viewDidLoad", log: OSLog.default, type: .debug)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // MARK: Actions
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        os_log("buttonClicked", log: OSLog.default, type: .debug)
+        os_log("Just another Git tutorial ;)", log: OSLog.default, type: .debug)
+    }
+    
 }
 

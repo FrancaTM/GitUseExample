@@ -6,7 +6,10 @@
 //  Copyright © 2017 0neTech. All rights reserved.
 //
 
+// https://www.raywenderlich.com/153084/use-git-source-control-xcode-8
+
 import UIKit
+import os.log
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        os_log("didFinishLaunchingWithOptions", log: OSLog.default, type: .debug)
+        
         return true
     }
 
