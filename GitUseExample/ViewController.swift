@@ -24,8 +24,9 @@ class ViewController: UIViewController {
 
     // MARK: Actions
     @IBAction func buttonClicked(_ sender: UIButton) {
-        os_log("buttonClicked", log: OSLog.default, type: .debug)
-        os_log("Just another Git tutorial ;)", log: OSLog.default, type: .debug)
+        //os_log("buttonClicked", log: OSLog.default, type: .debug)
+        //os_log("Just another Git tutorial ;)", log: OSLog.default, type: .debug)
+        os_log("You finished", log: OSLog.default, type: .debug)
     }
     
 }
