@@ -7,6 +7,9 @@
 //
 
 // https://www.raywenderlich.com/153084/use-git-source-control-xcode-8
+/*
+ Rather than working out for yourself everything to put in your .gitignore file, you can download one from gitignore.io.
+ */
 
 import UIKit
 import os.log
